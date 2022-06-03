@@ -66,6 +66,7 @@ function newBook(e) {
     // console.log(book);
 
     UI.addToBookList(book);
+    e.preventDefault();
     UI.clearFields();
    
 }
